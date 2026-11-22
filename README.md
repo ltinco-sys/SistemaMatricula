@@ -97,11 +97,15 @@ Para instalarla desde Apache NetBeans, seguir estos pasos:
 
 El proyecto se organiza mediante paquetes que separan las responsabilidades de sus componentes:
 
-- **Modelo:** clases que representan las entidades y datos del sistema.
-- **Vista:** interfaces gráficas y formularios de la aplicación.
-- **Controlador:** gestión de eventos e interacción entre las vistas y el modelo.
+- **Controlador:** gestión de eventos e interacción entre las vistas y los datos del sistema.
 - **DAO:** operaciones de acceso y comunicación con la base de datos.
-- **DTO:** objetos utilizados para transportar información entre los componentes del sistema.
+- **DTO:** clases que representan las entidades y datos del sistema, utilizadas para transportar información entre sus componentes.
+- **Formatos:** clases para el manejo de tablas y la presentación de mensajes.
+- **Img:** recursos gráficos e imágenes utilizados en las interfaces de la aplicación.
+- **Principal:** contiene la clase principal `Main`, encargada de iniciar la ejecución de la aplicación.
+- **Procesos:** clases que gestionan los procesos y operaciones principales del sistema.
+- **Util:** herramientas auxiliares para la exportación de archivos PDF y Excel, impresión de tablas y gestión de archivos.
+- **Vista:** interfaces gráficas y formularios de la aplicación.
 
 Además, el repositorio incluye la carpeta `database/`, que contiene el script de la base de datos, y la carpeta `docs/`, donde se encuentra la documentación visual del proyecto.
 
