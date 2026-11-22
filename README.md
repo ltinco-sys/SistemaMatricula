@@ -58,15 +58,18 @@ Desarrollar una aplicación de escritorio que permita al Colegio Sagrados Corazo
 
 El proyecto utiliza la librería **JCalendar** para incorporar componentes de selección de fechas en los formularios de la aplicación.
 
-Para agregarla desde Apache NetBeans, seguir estos pasos:
+**Descarga:** [JCalendar 1.4 – Sitio oficial](https://www.toedter.com/download/jcalendar-1.4.zip).
 
-1. Descargar la librería JCalendar en formato `.jar`.
-2. Abrir el proyecto SistemaMatricula en Apache NetBeans IDE.
-3. Hacer clic derecho sobre el proyecto y seleccionar **Properties**.
-4. Ingresar a la sección **Libraries**.
-5. Seleccionar **Add JAR/Folder**.
-6. Buscar y seleccionar el archivo `.jar` de JCalendar.
-7. Pulsar **Apply** y luego **OK**.
+Para instalarla desde Apache NetBeans, seguir estos pasos:
+
+1. Descargar el archivo ZIP desde el enlace proporcionado.
+2. Extraer su contenido y localizar el archivo `jcalendar.jar` dentro de la carpeta `lib`.
+3. Abrir el proyecto SistemaMatricula en Apache NetBeans IDE.
+4. Hacer clic derecho sobre el proyecto y seleccionar **Properties**.
+5. Ingresar a la sección **Libraries**.
+6. Seleccionar **Add JAR/Folder**.
+7. Buscar y seleccionar el archivo `jcalendar.jar`.
+8. Pulsar **Apply** y luego **OK**.
 
 **Nota:** Es necesario agregar esta librería para que los componentes de selección de fechas funcionen correctamente. Si no se incorpora, podrían presentarse errores o no mostrarse los calendarios en los formularios correspondientes.
 
