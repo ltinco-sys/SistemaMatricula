@@ -43,6 +43,12 @@ Desarrollar una aplicación de escritorio que permita al Colegio Sagrados Corazo
 - **Arquitectura:** Modelo-Vista-Controlador (MVC).
 - **Control de versiones:** Git y GitHub.
 
+## Documentación
+
+Para conocer las principales interfaces de la aplicación y el diseño de la base de datos, consulta el siguiente documento:
+
+- [Ver interfaces del sistema y diagrama de base de datos](docs/Interfaces-del-sistema.pdf).
+
 ## Requisitos e instrucciones de instalación
 
 ### Requisitos previos
@@ -97,7 +103,7 @@ El proyecto se organiza mediante paquetes que separan las responsabilidades de s
 - **DAO:** operaciones de acceso y comunicación con la base de datos.
 - **DTO:** objetos utilizados para transportar información entre los componentes del sistema.
 
-Además, se incluye la documentación y los recursos necesarios para la configuración de la base de datos.
+Además, el repositorio incluye la carpeta `database/`, que contiene el script de la base de datos, y la carpeta `docs/`, donde se encuentra la documentación visual del proyecto.
 
 ## Alcance académico
 
